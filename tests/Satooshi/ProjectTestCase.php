@@ -5,7 +5,7 @@ namespace Satooshi;
 use Satooshi\Component\File\Path;
 use Symfony\Component\Config\Definition\Exception\InvalidConfigurationException;
 
-class ProjectTestCase extends \PHPUnit_Framework_TestCase
+class ProjectTestCase extends \TestCase
 {
     protected function setUp()
     {
