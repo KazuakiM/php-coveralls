@@ -2,6 +2,7 @@
 
 namespace Satooshi;
 
+use PHPUnit\Framework\TestCase;
 use Satooshi\Component\File\Path;
 use Symfony\Component\Config\Definition\Exception\InvalidConfigurationException;
 
