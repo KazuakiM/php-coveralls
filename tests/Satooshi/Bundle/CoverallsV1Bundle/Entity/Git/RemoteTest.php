@@ -2,13 +2,15 @@
 
 namespace Satooshi\Bundle\CoverallsV1Bundle\Entity\Git;
 
+use PHPUnit\Framework\TestCase;
+
 /**
  * @covers \Satooshi\Bundle\CoverallsV1Bundle\Entity\Git\Remote
  * @covers \Satooshi\Bundle\CoverallsV1Bundle\Entity\Coveralls
  *
  * @author Kitamura Satoshi <with.no.parachute@gmail.com>
  */
-class RemoteTest extends \PHPUnit_Framework_TestCase
+class RemoteTest extends TestCase
 {
     protected function setUp()
     {

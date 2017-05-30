@@ -2,13 +2,15 @@
 
 namespace Satooshi\Bundle\CoverallsV1Bundle\Entity\Git;
 
+use PHPUnit\Framework\TestCase;
+
 /**
  * @covers \Satooshi\Bundle\CoverallsV1Bundle\Entity\Git\Commit
  * @covers \Satooshi\Bundle\CoverallsV1Bundle\Entity\Coveralls
  *
  * @author Kitamura Satoshi <with.no.parachute@gmail.com>
  */
-class CommitTest extends \PHPUnit_Framework_TestCase
+class CommitTest extends TestCase
 {
     protected function setUp()
     {

@@ -2,12 +2,14 @@
 
 namespace Satooshi\Bundle\CoverallsV1Bundle\Entity;
 
+use PHPUnit\Framework\TestCase;
+
 /**
  * @covers \Satooshi\Bundle\CoverallsV1Bundle\Entity\Metrics
  *
  * @author Kitamura Satoshi <with.no.parachute@gmail.com>
  */
-class MetricsTest extends \PHPUnit_Framework_TestCase
+class MetricsTest extends TestCase
 {
     protected function setUp()
     {

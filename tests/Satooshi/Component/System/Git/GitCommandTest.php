@@ -2,13 +2,15 @@
 
 namespace Satooshi\Component\System\Git;
 
+use PHPUnit\Framework\TestCase;
+
 /**
  * @covers \Satooshi\Component\System\Git\GitCommand
  * @covers \Satooshi\Component\System\SystemCommand
  *
  * @author Kitamura Satoshi <with.no.parachute@gmail.com>
  */
-class GitCommandTest extends \PHPUnit_Framework_TestCase
+class GitCommandTest extends TestCase
 {
     protected function createGitBranchesCommandMock($params)
     {

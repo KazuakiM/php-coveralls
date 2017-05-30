@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 use Satooshi\Component\File\Path;
 use Symfony\Component\Config\Definition\Exception\InvalidConfigurationException;
 
-class ProjectTestCase extends \TestCase
+class ProjectTestCase extends TestCase
 {
     protected function setUp()
     {

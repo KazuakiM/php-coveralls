@@ -2,6 +2,7 @@
 
 namespace Satooshi\Bundle\CoverallsV1Bundle\Collector;
 
+use PHPUnit\Framework\TestCase;
 use Satooshi\Bundle\CoverallsV1Bundle\Entity\Git\Commit;
 use Satooshi\Bundle\CoverallsV1Bundle\Entity\Git\Git;
 use Satooshi\Bundle\CoverallsV1Bundle\Entity\Git\Remote;
@@ -12,7 +13,7 @@ use Satooshi\Component\System\Git\GitCommand;
  *
  * @author Kitamura Satoshi <with.no.parachute@gmail.com>
  */
-class GitInfoCollectorTest extends \PHPUnit_Framework_TestCase
+class GitInfoCollectorTest extends TestCase
 {
     public function setUp()
     {
